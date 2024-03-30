@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #5A0F14;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 35px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.icone-instagram{
+    position: fixed;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.pinstagram{
+    padding: 1em;
+    color: #FFF;
+}
+
+.intro-content{
+    background-color: #f8f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.titulo{
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.container-conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+
+.container-item-atuacao{
+    background-color: #5A0F14;
+    border-radius: 100%;
+    margin: 2em;
+    padding: 5em;
+
+}
+
+.descricao{
+    color: #f8f1f1;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.icone-atuacao{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: stretch;
+}
+
+.container-item-servicos{
+    background-color: #7A423E;
+    border-radius: 50px;
+    margin: 0.5em;
+    padding: 2em;
+}
+
+.imgIcone{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.sobre-mim{
+    margin: 50px;
+    padding: 10px;
+}
+
+#sobre{
+    background-color: #f8f1f1;
+}
+
+#area-de-atuacao{
+    background-color: #f8f1f1;
+}
+
+.minha-foto{
+    margin: 50px;
+    padding: 10px;
+  
+
+}
+
+.img-helo{
+    border-radius: 1em;
+}
+
+
+footer{
+    padding: 100px;
+    background-color: #5A0F14;
+}
