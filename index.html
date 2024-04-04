@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heloísa Manso - Advogada</title>
+    <title>Heloísa Manso - Advogada e Consultoria Jurídicas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    
 
     <meta name="keywords" content="Portifólio">
 
@@ -19,33 +21,79 @@
             <li><a href="#sobre">Sobre mim</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
-          <figure class="icone-instagram">
-            <img src="./imgs/instagram.png" alt="ícone do instagram" width="50px">
-            <p class="pinstagram">@dra.heloisamanso</p>
-          </figure>
+          <ul>
+            <li>
+                <li>  
+                    <figure class="icone-instagram">
+                    <img src="./imgs/instagram.png" alt="ícone do instagram" width="50px">
+                    <p class="pinstagram">@dra.heloisamanso</p>
+                    </figure>
+                </li>
+            </li>
+          </ul>
         </nav>
-    
+       
 
         <main class="intro-content">
-            <h1>Aqui falta conteúdo</h1>
+            <figure>
+                <img src="./imgs/banner.png" alt="Banner"  width="100%">
+            </figure>
         </main>
 
         <section id="area-de-atuacao">
             <h2 class="titulo">Área de Atuação</h2> 
             <div class="container-conteudo">
-                <div class="container-item-atuacao">
+                <div class="container-item-atuacao" onclick="exibirDialogDC()">
                     <img class="imgIcone" src="./imgs/justica.png" alt="Direito Civil" width="100px">
                     <h4 class="descricao">Direito Civil</h4>
                 </div>
-                <div class="container-item-atuacao">
+                <div class="container-item-atuacao" onclick="exibirDialogDD()">
                     <img class="imgIcone" src="./imgs/protecao.png" alt="Direito Digital" width="100px">
                     <h4 class="descricao">Direito Digital</h4>
                 </div>
-                <div class="container-item-atuacao">
+                <div class="container-item-atuacao" onclick="exibirDialogConsumidor()">
                     <img class="imgIcone" src="./imgs/consumidor2.png" alt="Direito do Consumidor" width="100px">
                     <h4 class="descricao">Consumidor</h4>
                 </div>
             </div>
+            <div id="dialog-dc" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogDC()">&times;</span>
+                  <h3 class="info-dialog">Direito Civil</h3>
+                  <p class="borda"></p>
+                  <ul class="paragrafo-dialog">
+                    <li class="linha-dialog">Ação de Obrigação de Fazer e Não fazer</li>
+                    <li class="linha-dialog">Ação de Reparação Civil (Indenizações como danos morais, danos matérias e danos estéticos)</li>
+                    <li class="linha-dialog">Contratos</li>
+                    <li class="linha-dialog">Consultorias Jurídicas</li>
+                  </ul>
+                </div>
+            </div>
+            <div id="dialog-dd" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogDD()">&times;</span>
+                  <h3 class="info-dialog">Direito Digital</h3>
+                  <p class="borda"></p>
+                  <ul class="paragrafo-dialog">
+                    <li class="linha-dialog">Orientação Jurídica aos Influenciadores Digitais com divulgação de jogos de azar e rifas</li>
+                    <li class="linha-dialog">Recuperação e Reativação de contas</li>
+                    <li class="linha-dialog">Remoção de conta/conteúdo</li>
+                  </ul>
+                </div>
+              </div>
+              <div id="dialogConsumidor" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogConsumidor()">&times;</span>
+                  <h3 class="info-dialog">Direito do Consumidor</h3>
+                  <p class="borda">Pendente</p>
+                  <ul class="paragrafo-dialog">
+                    <li class="linha-dialog"></li>
+                    <li class="linha-dialog"></li>
+                    <li class="linha-dialog"></li>
+                  </ul>
+                </div>
+              </div>
+              
         </section>
 
         <section id="servicos">
@@ -83,26 +131,26 @@
             <h2 class="titulo">Quem sou eu</h2>
             <div class="container-conteudo">
                 <div class="sobre-mim">
-                    <p class="paragrafo-sobre-mim">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
-                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
-                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes 
-                        from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of 
-                        ethics, 
-                        very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        <br>
-                        <p class="paragrafo-sobre-mim">
-                            making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
-                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes 
-                        from sections 1.10.32 and 1.10.33 
-                        ing it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
-                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes 
-                        from sections 1.10.32 and 1.10.33
-                        </p>
-                        <br>
-                        <p class="paragrafo-sobre-mim">
-                        rom a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes 
-                        from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum.
-                        </p>
+                    <h4>Dra. Heloisa Manso</h4>
+                    <br>
+                    <p class="paragrafo-sobre-mim">
+                       Sou advogada graduada pela USJT-SP, e atualmente estou cursando pós-graduação em Direito Digital e Lei Geral de Proteção de Dados Pessoais. 
+                       Com uma ampla experiência no Contencioso Cível, 
+                       meu objetivo é proporcionar um atendimento diferenciado aos meus clientes, 
+                       buscando sempre a humanização e personalização em cada interação.
+                    </p>
+                    <br>
+                    <p class="paragrafo-sobre-mim" >
+                        Acredito na importância de oferecer uma abordagem cuidadosa e individualizada para cada caso, 
+                        desenvolvendo estratégias precisas para solucionar ou prevenir problemas de forma eficaz. 
+                        Minha dedicação é garantir que meus clientes se sintam ouvidos, compreendidos e confiantes no processo legal.
+                    </p>
+                    <br>
+                    <p class="paragrafo-sobre-mim">
+                        Estou comprometida em utilizar meu conhecimento e experiência para oferecer 
+                        resultados sólidos e satisfatórios, 
+                        sempre com ética, profissionalismo e excelência.
+                    </p>
                 </div>
                 <div class="minha-foto">
                     <figure>
@@ -111,21 +159,29 @@
                 </div>
             </div>
         </section>
-
+        <!--
         <section id="escolha">
             <h2 class="titulo">Porque sou a escolha certa para você</h2>
             <div class="container-conteudo">
                 <h1>Aqui falta conteúdo</h1>
             </div>
         </section>
-
+        -->
         <footer>
             <section id="contato">
+                <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
                 <a href="mailto:amandalimasiva@gmail.com">heloisamanso11@gmail.com</a><br>
-            
+                <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+                <a href="mailto:amandalimasiva@gmail.com">@dra.heloisamanso</a><br>
+                <i class="fa-brands fa-square-whatsapp" style="color: #ffffff;"></i>
+                <a href="https://wa.me/5511984123328" target="_blank">11 98412-3328</a><br>
+                
             </section>
         </footer>
-       
 
+        
+        <script src="https://kit.fontawesome.com/19dbb2ca6a.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        
 </body>
 </html>
