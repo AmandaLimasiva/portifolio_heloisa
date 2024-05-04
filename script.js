@@ -1,3 +1,5 @@
+//Modal
+
 //Direito Civil
 
 function exibirDialogDC() {
@@ -29,3 +31,17 @@ function fecharDialogDD() {
 function fecharDialogConsumidor() {
     document.getElementById('dialogConsumidor').style.display = 'none'; // Oculta o modal
   } 
+
+
+  //Menu
+
+  const menuBtn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('.nav');
+
+  
+
+  // Adiciona evento de clique ao botão do menu
+  menuBtn.addEventListener('click', () => {
+    // Alternar classe para mostrar/ocultar o menu
+    nav.classList.toggle('nav--open');
+  });
