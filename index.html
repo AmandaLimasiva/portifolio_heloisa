@@ -16,56 +16,52 @@
 <body>
     <body>
 
-       
-
-        <div class="menu-btn">
-            <div class="menu-btnburger">
-                <img src="./imgs/hamburger.png" width="25px" alt="">
-            </div>
-          </div>
-
-        <nav class="menu nav">
-          <ul class="lista-menu nav__list">
-            <li class="nav__item"><a href="#servicos">Serviços</a></li>
-            <li class="nav__item"><a href="#sobre">Sobre</a></li>
-            <li class="nav__item"><a href="#contato">Contato</a></li>
-            <li>
-                <li>  
-                    <figure class="icone-instagram">
-                    <a href=""><img src="./imgs/instagram.png" alt="ícone do instagram" width="50px"></a>
-                   <p class="pinstagram">@dra.heloisamanso</p>
-                    </figure>
-                </li>
-            </li>
-          </ul>
-          <ul>
-           
-          </ul>
-        </nav>
-
+        <body>
+            <header>
+                <div class="menu-btn">
+                    <div class="menu-btnburger">
+                        <img src="./imgs/hamburger.png" width="25px" alt="">
+                    </div>
+                </div>
         
-       
+                <nav class="menu nav">
+                    <ul class="lista-menu nav__list">
+                        <li class="nav__item"><a class="menuItem" href="#servicos">Serviços</a></li>
+                        <li class="nav__item"><a class="menuItem" href="#sobre">Sobre</a></li>
+                        <li class="nav__item"><a class="menuItem" href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
 
-        <main class="intro-content">
+        <button class="botao-flutuante">
+            <a href="https://www.instagram.com/heloisamanso.adv" target="_blank"><img src="./imgs/instagram.png" width="70px" alt=""></a>
+        </button>
+        
+            
+        <section class="imagem">
             <figure>
-                <a href=""></a><img src="./imgs/banner.png" alt="Banner"  width="100%">
+                <a href=""></a><img src="./imgs/BannerAtualizado.png" alt="Banner"  width="100%">
             </figure>
-        </main>
+        </section>
 
         <section id="area-de-atuacao">
             <h2 class="titulo">Áreas de Atuação</h2> 
             <div class="container-conteudo">
-                <div class="container-item-atuacao" onclick="exibirDialogDC()">
+                <div class="container-item-atuacao" id="img1" onclick="exibirDialogDC()">
                     <img class="imgIcone" src="./imgs/justica.png" alt="Direito Civil" width="100px">
                     <h4 class="descricao">Direito Civil</h4>
+                    <p class="clique">Clique aqui</p>
                 </div>
-                <div class="container-item-atuacao" onclick="exibirDialogDD()">
+                <div class="container-item-atuacao"  id="img2" onclick="exibirDialogDD()">
                     <img class="imgIcone" src="./imgs/protecao.png" alt="Direito Digital" width="100px">
                     <h4 class="descricao">Direito Digital</h4>
+                    <p class="clique">Clique aqui</p>
                 </div>
-                <div class="container-item-atuacao" onclick="exibirDialogConsumidor()">
+                <div class="container-item-atuacao"  id="img3" onclick="exibirDialogConsumidor()">
                     <img class="imgIcone" src="./imgs/consumidor2.png" alt="Direito do Consumidor" width="100px">
                     <h4 class="descricao">Consumidor</h4>
+                    <p class="clique">Clique aqui</p>
                 </div>
             </div>
             <div id="dialog-dc" class="modal">
@@ -106,35 +102,47 @@
                   </ul>
                 </div>
               </div>
-              
         </section>
 
+        <section class="fazerContato">
+            <h2 class="titulo">Qualidade no atendimento, de forma ágil e humanizada</h2>
+            <button class="botao" type="button">
+                <a class="btn" href="https://wa.me/5511984123328" target="_blank">
+                    <img src="imgs//whatsapp.png" alt="">
+                    Fale com uma advogada especializada</a>
+            </button>
+            <p class="paragrafoAten">Atendimento 100% online no WhatsApp, em todo Brasil.</p>
+
+        </section>
         <section id="servicos">
-            <h2 class="titulo">Serviços</h2>
+            <h2 class="tituloServicos">Porque somos a escolha certa para você</h2>
             <div class="container-conteudo">
                 <div class="container-item-servicos">
                     <img class="imgIcone" src="./imgs/comunicacao2.png" alt="Comunicação" width="100px">
-                    <h4 class="descricao">Comunicação</h4>
-                    <p class="paragrafo">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
-                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
-                        sfrom a
-                        Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
+                    <h4 class="descricao">DIRETO DIGITAL</h4>
+                    <p class="paragrafo">Foco no mercado digital, com especialistas em crimes 
+                        cibernéticos, atendendo especialmente influenciadores e empreendedores com soluções legais 
+                        personalizadas para cada caso. Nossa equipe oferece uma abordagem humanizada e centrada no cliente, 
+                        tornando o processo objetivo e estratégico. <br><br>Garantimos que nossos clientes recuperem eventuais valores financeiros perdidos e preservem a honra e a imagem de seus negócios através da remoção de informações prejudiciais e compensação por danos causados 
+                        por contas hackeadas ou desativadas nas redes sociais.  </p>
                 </div>
                 <div class="container-item-servicos">
                     <img class="imgIcone" src="./imgs/distancia (1).png " alt="Comunicação" width="100px">
-                    <h4 class="descricao">Proximidade</h4>
-                    <p class="paragrafo">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
-                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
-                        sfrom a
-                        Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
+                    <h4 class="descricao">DIREITO CIVIL</h4>
+                    <p class="paragrafo">Profissionais capacitados, com amplo conhecimento em contencioso civil, 
+                        priorizam a resolução de litígios de forma extrajudicial, visando exclusivamente entregar um 
+                        trabalho mais rápido e eficiente para o cliente.<br><br> Focamos também em resolver todas as 
+                        questões relacionadas ao dia a dia e de cunho patrimonial e extrapatrimonial do cliente, 
+                        entendendo suas dores e oferecendo as melhores soluções para cada caso.9</p>
                 </div>
                 <div class="container-item-servicos">
                     <img class="imgIcone" src="./imgs/atendimento2.png" alt="atendimento Personalizado" width="100px">
-                    <h4 class="descricao">Direito Digital</h4>
-                    <p class="paragrafo">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
-                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
-                        sfrom a
-                        Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
+                    <h4 class="descricao">Direito do Consumidor</h4>
+                    <p class="paragrafo">Foco no Consumidor, a parte mais vulnerável na relação jurídica, 
+                        garantindo acesso a todos os seus direitos de forma eficiente para que nosso cliente saia 
+                        prejudicicado na relação entre fornecedor/prestador de serviços e cliente.br 
+                        <br><br> Com advogados especializados em consumidor, asseguramos que todos os seus direitos sejam 
+                        respeitados que não haja abusos nos serviços prestados a ele.</p>
                 </div>
             </div>
         </section>
@@ -164,10 +172,13 @@
                         resultados sólidos e satisfatórios, 
                         sempre com ética, profissionalismo e excelência.
                     </p>
+                    <p class="cod">
+                        Inscrição OAB/SP: Nº 514.135
+                    </p>
                 </div>
                 <div class="minha-foto">
                     <figure>
-                        <img class="img-helo" src="./imgs/image.jpg" alt="Dra. Heloísa Manso" width="300px">
+                        <img class="img-helo" src="./imgs/fotoSobre.png" alt="Dra. Heloísa Manso" width="300px">
                     </figure>
                 </div>
             </div>
@@ -182,10 +193,11 @@
         -->
         <footer>
             <section id="contato">
+                <h2 class="contatoFooter">Fale conosco</h2>
                 <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
                 <a class="footer" href="mailto:heloisamanso11@gmail.com">heloisamanso11@gmail.com</a><br>
                 <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
-                <a class="footer" href="mailto:amandalimasiva@gmail.com">@dra.heloisamanso</a><br>
+                <a class="footer" href="https://www.instagram.com/heloisamanso.adv" target="_blank">@heloisamanso.adv</a><br>
                 <i class="fa-brands fa-square-whatsapp" style="color: #ffffff;"></i>
                 <a class="footer" href="https://wa.me/5511984123328" target="_blank">11 98412-3328</a><br>
             </section>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heloísa Manso - Advogada e Consultoria Jurídicas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta name="keywords" content="Portifólio">
+</head>
+<body>
+    <body>
+        <header>
+            <div class="menu-btn">
+                <div class="menu-btnburger">
+                    <img src="./imgs/hamburger.png" width="25px" alt="">
+                </div>
+              </div>
+    
+            <nav class="menu nav">
+              <ul class="lista-menu nav__list">
+                <li class="nav__item"><a class="menuItem" href="#servicos">Serviços</a></li>
+                <li class="nav__item"><a class="menuItem" href="#sobre">Sobre</a></li>
+                <li class="nav__item"><a class="menuItem" href="#contato">Contato</a></li>
+                <li>
+                    <li>  
+                        <figure class="icone-instagram">
+                        <a href=""><img src="./imgs/instagram.png" alt="ícone do instagram" width="50px"></a>
+                       <p class="pinstagram">@heloisamanso.adv</p>
+                        </figure>
+                    </li>
+                </li>
+              </ul>
+              <ul>
+               
+              </ul>
+            </nav>
+    
+        </header>
+         
+        <main class="intro-content">
+              
+            <div class="banner">
+                <figure>
+                    <a href=""></a><img src="./imgs/BannerAtualizado.png" alt="Banner"  width="100%">
+                </figure>
+            </div>
+
+        </main>
+        <section id="area-de-atuacao">
+            <h2 class="titulo um">Áreas de Atuação</h2> 
+            <div class="container-conteudo">
+                <div class="container-item-atuacao" onclick="exibirDialogDC()">
+                    <img class="imgIcone" src="./imgs/justica.png" alt="Direito Civil" width="100px">
+                    <h4 class="descricao">Direito Civil</h4>
+                    <p class="clique">Clique aqui</p>
+                </div>
+                <div class="container-item-atuacao" onclick="exibirDialogDD()">
+                    <img class="imgIcone" src="./imgs/protecao.png" alt="Direito Digital" width="100px">
+                    <h4 class="descricao">Direito Digital</h4>
+                    <p class="clique">Clique aqui</p>
+                </div>
+                <div class="container-item-atuacao" onclick="exibirDialogConsumidor()">
+                    <img class="imgIcone" src="./imgs/consumidor2.png" alt="Direito do Consumidor" width="100px">
+                    <h4 class="descricao">Consumidor</h4>
+                    <p class="clique">Clique aqui</p>
+                </div>
+            </div>
+            <div id="dialog-dc" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogDC()">&times;</span>
+                  <h3 class="info-dialog">Direito Civil</h3>
+                  <p class="borda"></p>
+                  <ul class="paragrafo-dialog">
+                    <li class="linha-dialog">Ação de Obrigação de Fazer e Não Fazer;</li>
+                    <li class="linha-dialog">Ação de Reparação Civil (incluindo indenizações por danos morais, danos materiais e danos estéticos)</li>
+                    <li class="linha-dialog">Elaboração e Revisão de Contratos</li>
+                    <li class="linha-dialog">Consultoria Jurídica Especializada</li>
+                    <li class="linha-dialog">Serviços de Cobrança Judicial e Extrajudicial</li>
+                  </ul>
+                </div>
+            </div>
+            <div id="dialog-dd" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogDD()">&times;</span>
+                  <h3 class="info-dialog">Direito Digital</h3>
+                  <p class="borda"></p>
+                  <ul class="paragrafo-dialog">
+                    <li class="linha-dialog">Orientação Jurídica aos Influenciadores Digitais com divulgação de jogos de azar e rifas</li>
+                    <li class="linha-dialog">Recuperação e Reativação de contas</li>
+                    <li class="linha-dialog">Remoção de conta/conteúdo</li>
+                    <li class="linha-dialog">Elaboração e revisão de contratos digitais</li>
+                  </ul>
+                </div>
+              </div>
+              <div id="dialogConsumidor" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogConsumidor()">&times;</span>
+                  <h3 class="info-dialog">Direito do Consumidor</h3>
+                  <p class="borda"></p>
+                  <ul class="paragrafo-dialog">
+                    <li class="linha-dialog">Ação declaratória de inexistência de débito</li>
+                    <li class="linha-dialog">Ação de Indenização por Danos Morais e Materiais</li>
+                  </ul>
+                </div>
+              </div>
+              
+        </section>
+
+        <section class="fazerContato">
+            <h2 class="titulo">Qualidade no atendimento, de forma ágil e humanizada</h2>
+            <button class="botao" type="button">
+                <a class="btn" href="https://wa.me/5511984123328" target="_blank">
+                    <img src="imgs//whatsapp.png" alt="">
+                    Fale com uma advogada Especializada</a>
+            </button>
+            <p class="paragrafo">Atendimento 100% online no WhatsApp, em todo Brasil.</p>
+
+        </section>
+
+        <section id="servicos">
+            <h2 class="titulo dois">Porque somos a escolha certa para você</h2>
+            <div class="container-conteudo">
+                <div class="container-item-servicos">
+                    <img class="imgIcone" src="./imgs/comunicacao.png" alt="Comunicação" width="100px">
+                    <h4 class="descricao">Comunicação</h4>
+                    <p class="paragrafo">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                        sfrom a
+                        Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
+                </div>
+                <div class="container-item-servicos">
+                    <img class="imgIcone" src="./imgs/distancia.png" alt="Comunicação" width="100px">
+                    <h4 class="descricao">Proximidade</h4>
+                    <p class="paragrafo">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                        sfrom a
+                        Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
+                </div>
+                <div class="container-item-servicos">
+                    <img class="imgIcone" src="./imgs/atendimento.png" alt="atendimento Personalizado" width="100px">
+                    <h4 class="descricao">Direito Digital</h4>
+                    <p class="paragrafo">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                        sfrom a
+                        Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="sobre">
+            <h2 class="titulo tres">Quem sou eu</h2>
+            
+            <div class="container-conteudo">
+                <div class="sobre-mim">
+                    <h4>Dra. Heloisa Manso</h4>
+                    <br>
+                    <p class="paragrafo-sobre-mim">
+                       Sou advogada graduada pela USJT-SP, e atualmente estou cursando pós-graduação em Direito Digital e Lei Geral de Proteção de Dados Pessoais. 
+                       Com uma ampla experiência no Contencioso Cível, 
+                       meu objetivo é proporcionar um atendimento diferenciado aos meus clientes, 
+                       buscando sempre a humanização e personalização em cada interação.
+                    </p>
+                    <br>
+                    <p class="paragrafo-sobre-mim" >
+                        Acredito na importância de oferecer uma abordagem cuidadosa e individualizada para cada caso, 
+                        desenvolvendo estratégias precisas para solucionar ou prevenir problemas de forma eficaz. 
+                        Minha dedicação é garantir que meus clientes se sintam ouvidos, compreendidos e confiantes no processo legal.
+                    </p>
+                    <br>
+                    <p class="paragrafo-sobre-mim">
+                        Estou comprometida em utilizar meu conhecimento e experiência para oferecer 
+                        resultados sólidos e satisfatórios, 
+                        sempre com ética, profissionalismo e excelência.
+                    </p>
+                </div>
+                <div class="minha-foto">
+                    <figure>
+                        <img class="img-helo" src="./imgs/fotoSobre.png" alt="Dra. Heloísa Manso" width="00px">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!--
+        <section id="escolha">
+            <h2 class="titulo">Porque sou a escolha certa para você</h2>
+            <div class="container-conteudo">
+                <h1>Aqui falta conteúdo</h1>
+            </div>
+        </section>
+
+
+        
+        -->
+       
+        <footer>
+            <section id="contato">
+                <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                <a class="footer" href="mailto:heloisamansoadvogada@outlook.com">heloisamansoadvogada@outlook.com</a><br>
+                <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+                <a class="footer" href="mailto:amandalimasiva@gmail.com">@heloisamanso.adv</a><br>
+                <i class="fa-brands fa-square-whatsapp" style="color: #ffffff;"></i>
+                <a class="footer" href="https://wa.me/5511984123328" target="_blank">11 98412-3328</a><br>
+            </section>
+  
+    
+        </footer>
+        <section class="copy">
+            <div class="copydiv">
+                <p>&copy; 2024 Amanda Lima. Todos os direitos reservados.</p>
+            </div>
+        </section>
+
+
+
+        
+        <script src="https://kit.fontawesome.com/19dbb2ca6a.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        
+</body>
+</html>
