@@ -1,40 +1,75 @@
 //Modal
 
-//Direito Civil
-
-function exibirDialogDC() {
-    document.getElementById('dialog-dc').style.display = 'block'; // Exibe o modal de Direito Civil
+//Recuperação e reativação de contas
+function exibirDialogRecuperacaoDeContas() {
+    document.getElementById('dialog-dc').style.display = 'block'; // Exibe o modal de Recuperação e reativação de contass
   }
 
-  function fecharDialogDC() {
+  function fecharDialogRecuperacaoDeContas() {
     document.getElementById('dialog-dc').style.display = 'none'; // Oculta o modal
   }
 
 
-  //Direito Digital
-  function exibirDialogDD() {
+  //Remoção de Contéudo
+  function exibirDialogRemocaoDeConteudo() {
     document.getElementById('dialog-dd').style.display = 'block'; // Exibe o modal
   }
 
 
-function fecharDialogDD() {
+function fecharDialogRemocaoDeConteudo() {
     document.getElementById('dialog-dd').style.display = 'none'; // Oculta o modal
   }
 
-  //Direito do Consumidor
+  //Registro de Máquinas no INPI
   
-  function exibirDialogConsumidor() {
-    document.getElementById('dialogConsumidor').style.display = 'block'; // Exibe o modal
+  function exibirDialogRegistroDeMarcasNoINPI() {
+    document.getElementById('dialog-inpi').style.display = 'block'; // Exibe o modal
   }
 
 
-function fecharDialogConsumidor() {
-    document.getElementById('dialogConsumidor').style.display = 'none'; // Oculta o modal
+function fecharDialogRegistroDeMarcasNoINPI() {
+    document.getElementById('dialog-inpi').style.display = 'none'; // Oculta o modal
   } 
 
 
-  //Menu
+  //Registro de Direitos Autoriais
+  
+  function exibirDialogRegistroDeDireitosAutorais() {
+    document.getElementById('dialog-direitos-autorais').style.display = 'block'; // Exibe o modal
+  }
 
+
+function fecharDialogRegistroDeDireitosAutorais() {
+    document.getElementById('dialog-direitos-autorais').style.display = 'none'; // Oculta o modal
+  } 
+
+
+  //Golpes Virtuais
+
+  function exibirDialogGolpesVirtuais() {
+    document.getElementById('dialog-golpes-virtuais').style.display = 'block'; // Exibe o modal
+  }
+
+
+function fecharDialogGolpesVirtuais() {
+    document.getElementById('dialog-golpes-virtuais').style.display = 'none'; // Oculta o modal
+  } 
+
+  //Crimes contra a honra
+
+  function exibirDialogCrimesHonra() {
+    document.getElementById('dialog-crimes-honra').style.display = 'block'; // Exibe o modal
+  }
+
+
+function fecharDialogCrimeHonra() {
+    document.getElementById('dialog-crimes-honra').style.display = 'none'; // Oculta o modal
+  } 
+
+
+
+
+  //Menu
   const menuBtn = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav');
 

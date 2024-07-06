@@ -41,67 +41,120 @@
             
         <section class="imagem">
             <figure>
-                <a href=""></a><img src="./imgs/BannerAtualizado.png" alt="Banner"  width="100%">
+                <a href=""></a><img src="./imgs/Banner.png" alt="Banner"  width="100%">
             </figure>
         </section>
 
         <section id="area-de-atuacao">
             <h2 class="titulo">Áreas de Atuação</h2> 
             <div class="container-conteudo">
-                <div class="container-item-atuacao" id="img1" onclick="exibirDialogDC()">
-                    <img class="imgIcone" src="./imgs/justica.png" alt="Direito Civil" width="100px">
-                    <h4 class="descricao">Direito Civil</h4>
+                <div class="container-item-atuacao" id="img1" onclick="exibirDialogRecuperacaoDeContas()">
+                    <h4 class="descricao">Recuperação e Reativação de contas</h4>
                     <p class="clique">Clique aqui</p>
                 </div>
-                <div class="container-item-atuacao"  id="img2" onclick="exibirDialogDD()">
-                    <img class="imgIcone" src="./imgs/protecao.png" alt="Direito Digital" width="100px">
-                    <h4 class="descricao">Direito Digital</h4>
+                <div class="container-item-atuacao"  id="img2" onclick="exibirDialogRemocaoDeConteudo()">
+                    <h4 class="descricao">Remoção de conteúdo</h4>
                     <p class="clique">Clique aqui</p>
                 </div>
-                <div class="container-item-atuacao"  id="img3" onclick="exibirDialogConsumidor()">
-                    <img class="imgIcone" src="./imgs/consumidor2.png" alt="Direito do Consumidor" width="100px">
-                    <h4 class="descricao">Consumidor</h4>
+                <div class="container-item-atuacao"  id="img3" onclick="exibirDialogRegistroDeMarcasNoINPI()">
+                    <h4 class="descricao">Registro de Marcas no INPI</h4>
+                    <p class="clique">Clique aqui</p>
+                </div>
+                <div class="container-item-atuacao"  id="img4" onclick="exibirDialogRegistroDeDireitosAutorais()">
+                    <h4 class="descricao">Registro de Direitos Autorais</h4>
+                    <p class="clique">Clique aqui</p>
+                </div>
+                <div class="container-item-atuacao"  id="img5" onclick="exibirDialogGolpesVirtuais()">
+                    <h4 class="descricao">Golpes Virtuais</h4>
+                    <p class="clique">Clique aqui</p>
+                </div>
+                <div class="container-item-atuacao"  id="img6" onclick="exibirDialogCrimesHonra()">
+                    <h4 class="descricao">Crimes contra a honra</h4>
                     <p class="clique">Clique aqui</p>
                 </div>
             </div>
-            <div id="dialog-dc" class="modal">
+            <!--1-->
+                <div id="dialog-dc" class="modal">
                 <div class="modal-content">
-                  <span class="fechar" onclick="fecharDialogDC()">&times;</span>
-                  <h3 class="info-dialog">Direito Civil</h3>
+                  <span class="fechar" onclick="fecharDialogRecuperacaoDeContas()">&times;</span>
+                  <h3 class="info-dialog">Recuperação e Reativação de contas</h3>
+                  <p class="borda"></p>
+                  <P class="p-dialog-paragrafo">HM é um escritório especializado na recuperação de contas de redes sociais que
+                    foram hackeadas ou desativadas. Além de restabelecer o acesso, lutamos por
+                    indenizações para reparar os danos causados.</P>
+                </div>
+                </div>
+            <!--2-->
+                <div id="dialog-dd" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogRemocaoDeConteudo()">&times;</span>
+                  <h3 class="info-dialog">Remoção de Conteúdo</h3>
+                  <p class="borda"></p>
+                  <p class="p-dialog-paragrafo">Prestamos serviços de remoção de conteúdo digital que possa prejudicar sua
+                    reputação ou negócio. Seja uma postagem difamatória, um vídeo inadequado,
+                    fake news ou até mesmo conteúdo adulto (+18) vazado, adotamos as medidas
+                    administrativas, extrajudiciais e judiciais necessárias, a depende do seu caso.</p>
+                </div>
+                </div>
+            <!--3-->
+                <div id="dialog-inpi" class="modal">
+                <div class="modal-content">
+                  <span class="fechar" onclick="fecharDialogRegistroDeMarcasNoINPI()">&times;</span>
+                  <h3 class="info-dialog">Registro de Marcas no INPI</h3>
                   <p class="borda"></p>
                   <ul class="paragrafo-dialog">
-                    <li class="linha-dialog">Ação de Obrigação de Fazer e Não Fazer</li>
-                    <li class="linha-dialog">Ação de Reparação Civil (incluindo indenizações por danos morais, danos materiais e danos estéticos)</li>
-                    <li class="linha-dialog">Elaboração e Revisão de Contratos</li>
-                    <li class="linha-dialog">Consultoria Jurídica Especializada</li>
-                    <li class="linha-dialog">Serviços de Cobrança Judicial e Extrajudicial</li>
+                    <li class="linha-dialog">Realizarmos a prestação de diversoso serviços relacionados ao direito autorais, são
+                        eles: Registro de Marca; Registro de Infoproduto; Registros Autorais; Combate ao
+                        Plágio</li>
                   </ul>
                 </div>
-            </div>
-            <div id="dialog-dd" class="modal">
+                </div>
+            <!--4-->
+                <div id="dialog-direitos-autorais" class="modal">
                 <div class="modal-content">
-                  <span class="fechar" onclick="fecharDialogDD()">&times;</span>
-                  <h3 class="info-dialog">Direito Digital</h3>
+
+                  <span class="fechar" onclick="fecharDialogRegistroDeDireitosAutorais()">&times;</span>
+                  <h3 class="info-dialog">Registro de Direitos Autorais</h3>
                   <p class="borda"></p>
-                  <ul class="paragrafo-dialog">
-                    <li class="linha-dialog">Orientação Jurídica aos Influenciadores Digitais com divulgação de jogos de azar e rifas</li>
-                    <li class="linha-dialog">Recuperação e Reativação de contas</li>
-                    <li class="linha-dialog">Remoção de conta/conteúdo</li>
-                    <li class="linha-dialog">Elaboração e revisão de contratos digitais</li>
+                  <p class="p-dialog-paragrafo">Realizarmos a prestação de diversoso serviços relacionados ao direito autorais, são
+                    eles:</p>
+                  <ul class="paragrafo-dialog"> 
+                    <li class="linha-dialog">Registro de Marca</li>
+                    <li class="linha-dialog">Registro de Infoproduto</li>
+                    <li class="linha-dialog">Registros Autorais</li>
+                    <li class="linha-dialog">Combate ao Plágio</li>
                   </ul>
                 </div>
-              </div>
-              <div id="dialogConsumidor" class="modal">
+                </div>
+            <!--5-->
+                <div id="dialog-golpes-virtuais" class="modal">
+                    <div class="modal-content">
+                      <span class="fechar" onclick="fecharDialogGolpesVirtuais()">&times;</span>
+                      <h3 class="info-dialog">Golpes Virtuais</h3>
+                      <p class="borda"></p>
+                      <p class="p-dialog-paragrafo">Se você foi vítima de um golpe virtual, atuaremos para recuperar os valores
+                        perdidos, incluindo os casos do conhecido &#39;Golpe do Pix&#39;, no qual golpistas entram
+                        em contato com a vítima por telefone, e-mail, SMS e redes sociais para aplicação
+                        do golpe.</p>
+                    </div>
+                </div>
+            <!--6-->
+                <div id="dialog-crimes-honra" class="modal">
                 <div class="modal-content">
-                  <span class="fechar" onclick="fecharDialogConsumidor()">&times;</span>
-                  <h3 class="info-dialog">Direito do Consumidor</h3>
+
+                  <span class="fechar" onclick="fecharDialogCrimeHonra()">&times;</span>
+                  <h3 class="info-dialog">Crimes contra a Honra</h3>
                   <p class="borda"></p>
+                  <p class="p-dialog-paragrafo">Caso tenha sofrido crimes cibernéticos: </p>
                   <ul class="paragrafo-dialog">
-                    <li class="linha-dialog">Ação declaratória de inexistência de débito</li>
-                    <li class="linha-dialog">Ação de Indenização por Danos Morais e Materiais</li>
+                    <li class="linha-dialog">Difamação</li>
+                    <li class="linha-dialog">Injúria</li>
+                    <li class="linha-dialog">Cálunia no ambiente online</li>
                   </ul>
+                  <p class="p-dialog-paragrafo">Buscaremos proteger sua honra e reputação, por meio de todas
+                    as medidas legais cabíveis contra os ofensores. </p>
                 </div>
-              </div>
+                </div>
         </section>
 
         <section class="fazerContato">
@@ -116,10 +169,10 @@
         </section>
         <section id="servicos">
             <h2 class="tituloServicos">Porque somos a escolha certa para você</h2>
-            <div class="container-conteudo">
+            <div class="container-conteudo escolha">
                 <div class="container-item-servicos">
                     <img class="imgIcone" src="./imgs/comunicacao2.png" alt="Comunicação" width="100px">
-                    <h4 class="descricao">DIRETO DIGITAL</h4>
+                    <h4 class="descricao">Foco no Mercado Digital</h4>
                     <p class="paragrafo">Foco no mercado digital, com especialistas em crimes 
                         cibernéticos, atendendo especialmente influenciadores e empreendedores com soluções legais 
                         personalizadas para cada caso. Nossa equipe oferece uma abordagem humanizada e centrada no cliente, 
@@ -128,7 +181,7 @@
                 </div>
                 <div class="container-item-servicos">
                     <img class="imgIcone" src="./imgs/distancia (1).png " alt="Comunicação" width="100px">
-                    <h4 class="descricao">DIREITO CIVIL</h4>
+                    <h4 class="descricao">Serviço Humanizado</h4>
                     <p class="paragrafo">Profissionais capacitados, com amplo conhecimento em contencioso civil, 
                         priorizam a resolução de litígios de forma extrajudicial, visando exclusivamente entregar um 
                         trabalho mais rápido e eficiente para o cliente.<br><br> Focamos também em resolver todas as 
@@ -137,7 +190,7 @@
                 </div>
                 <div class="container-item-servicos">
                     <img class="imgIcone" src="./imgs/atendimento2.png" alt="atendimento Personalizado" width="100px">
-                    <h4 class="descricao">Direito do Consumidor</h4>
+                    <h4 class="descricao">Segurança Digital Completa</h4>
                     <p class="paragrafo">Foco no Consumidor, a parte mais vulnerável na relação jurídica, 
                         garantindo acesso a todos os seus direitos de forma eficiente para que nosso cliente saia 
                         prejudicicado na relação entre fornecedor/prestador de serviços e cliente.br 
@@ -150,35 +203,52 @@
 
         <section id="sobre">
             <h2 class="titulo">Quem sou eu</h2>
-            <div class="container-conteudo">
+            <div class="container-conteudo sobre">
                 <div class="sobre-mim">
                     <h4>Dra. Heloisa Manso</h4>
                     <br>
                     <p class="paragrafo-sobre-mim">
-                       Sou advogada graduada pela USJT-SP, e atualmente estou cursando pós-graduação em Direito Digital e Lei Geral de Proteção de Dados Pessoais. 
-                       Com uma ampla experiência no Contencioso Cível, 
-                       meu objetivo é proporcionar um atendimento diferenciado aos meus clientes, 
-                       buscando sempre a humanização e personalização em cada interação.
+                        A HM Advocacia &amp; Consultoria Digital não se limita a ser apenas um escritório de advocacia;
+                        somos seus parceiros estratégicos em um ambiente digital cada vez mais complexo. Fundado
+                        pela advogada Heloisa Manso, especialista em Direito Digital, nosso escritório se destaca na
+                        proteção de dados, mercado digital, crimes cibernéticos e redes sociais.
                     </p>
                     <br>
                     <p class="paragrafo-sobre-mim" >
-                        Acredito na importância de oferecer uma abordagem cuidadosa e individualizada para cada caso, 
-                        desenvolvendo estratégias precisas para solucionar ou prevenir problemas de forma eficaz. 
-                        Minha dedicação é garantir que meus clientes se sintam ouvidos, compreendidos e confiantes no processo legal.
+                        Heloisa Manso não é apenas uma advogada que recentemente ingressou no mundo digital.
+                        Com experiência em tecnologia desde seu primeiro emprego como jovem aprendiz na área de
+                        tecnologia da informação, mantém um forte interesse contínuo pelo mundo digital.
+                        Essa combinação a torna fundamental para o sucesso de nosso escritório, integrando suas
+                        paixões pelo direito e pela tecnologia. Ela compartilha seu conhecimento e paixão pelo avanço
+                        tecnológico através de seu Instagram, heloisamanso.adv, onde aborda temas relacionados às
+                        soluções tecnológicas e seus avanços.
                     </p>
                     <br>
                     <p class="paragrafo-sobre-mim">
-                        Estou comprometida em utilizar meu conhecimento e experiência para oferecer 
-                        resultados sólidos e satisfatórios, 
-                        sempre com ética, profissionalismo e excelência.
+                        Somos especialistas em lidar com Crimes Cibernéticos e questões relacionadas às Redes
+                        Sociais. Desde a recuperação de contas comprometidas até a busca de indenização por
+                        difamação online, nossa abordagem é minuciosa e sempre em conformidade com a legislação
+                        atual.
+                    </p>
+                    <br>
+                    <p class="paragrafo-sobre-mim">
+                        Além disso, destacamo-nos no Mercado Digital, atendendo Influenciadores, Produtores,
+                        Especialistas e Afiliados, com soluções que abrangem desde a elaboração de contratos e
+                        acordos até a proteção de ativos digitais, direitos autorais e gestão de crises.
+                        Entre em contato conosco para uma proteção completa no Mundo Digital.          
                     </p>
                     <p class="cod">
                         Inscrição OAB/SP: Nº 514.135
                     </p>
+                    <button class="btn1" type="button">
+                        <a class="btn" href="https://wa.me/5511984123328" target="_blank">
+                            <img src="imgs//whatsapp.png" alt="">
+                            Fale com uma advogada especializada</a>
+                    </button>
                 </div>
                 <div class="minha-foto">
                     <figure>
-                        <img class="img-helo" src="./imgs/fotoSobre.png" alt="Dra. Heloísa Manso" width="300px">
+                        <img class="img-helo" src="./imgs/fotoSobre.png" alt="Dra. Heloísa Manso" width="350px">
                     </figure>
                 </div>
             </div>
