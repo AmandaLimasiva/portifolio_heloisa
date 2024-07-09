@@ -20,7 +20,7 @@ li{
     width: 100%;
     display: flex;
     justify-content:center;
-    background-color: #1c819d;
+    background-color: #5A0F14;
     padding: 15px;
 
 }
@@ -86,6 +86,13 @@ li{
 
 
 */
+
+
+h1{
+    color: #fefefe;
+}
+
+
 .titulo{
     text-align: center;
     padding: 1em;
@@ -140,6 +147,28 @@ li{
     text-transform: uppercase;
 
 }
+
+#main{
+    background-image: url("./imgs/fundo.jpg");
+    background-repeat: no-repeat;
+    padding: 13em;
+}
+
+.titulo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: left;
+}
+
+.paragrafo-main{
+    margin: 1em;
+    color: #fefefe;
+    margin: 40px;
+    font-weight: bold;
+}
+
 
 
 .linha-dialog{
@@ -370,7 +399,7 @@ li{
     background-color: #5A0F14; /* Cor de fundo */
     border: none; /* Remove a borda padrão */
     padding: 10px 20px; /* Espaçamento interno */
-    border-radius: 5px; /* Borda arredondada */
+    border-radius: 10px; /* Borda arredondada */
     cursor: pointer; /* Cursor ao passar o mouse */
     display: inline-block; /* Para ajustar ao conteúdo */
     text-align: center; /* Alinhar texto ao centro */
@@ -383,7 +412,7 @@ li{
 
 .btn1:hover {
     /* Estilos quando o mouse passa por cima */
-    background-color: #ad4b52; /* Cor de fundo mais escura */
+    background-color: #25D366; /* Cor de fundo mais escura */
 }
 
 .btn1 img {
@@ -425,7 +454,7 @@ li{
 
 footer{
     padding: 80px;
-    background-color: #1c819d;
+    background-color: #5A0F14;
     font-size: 20px;
 }
 
@@ -438,8 +467,8 @@ a.footer{
 .copy{
     text-align: center;
     padding: 1px;
-    color: #afacac;
-    background-color: #1c81 9d;
+    color: hsl(0, 0%, 100%);
+    background-color: #5A0F14;
     font-size: 12px;
 }
 
@@ -466,7 +495,29 @@ a.footer{
     body {
       font-size: 12px;
     }
+
+    #main{
+        padding: 5em;
+    }
+
+    .paragrafo-main{
+      margin: 20px;
+      text-align: justify;
+    }
     
+    .btn1{
+        background-color: #5A0F14; /* Cor de fundo */
+        border: none; /* Remove a borda padrão */
+        padding: 5px 15px; /* Espaçamento interno */
+        border-radius: 10px; /* Borda arredondada */
+        cursor: pointer; /* Cursor ao passar o mouse */
+        display: inline-block; /* Para ajustar ao conteúdo */
+        text-align: center; /* Alinhar texto ao centro */
+        text-decoration: none; /* Remover sublinhado padrão */
+        color: white; /* Cor do texto */
+        font-size: 15px; /* Tamanho da fonte */
+    }
+
     /*MENU*/
     .menu{
         position: fixed;
@@ -476,7 +527,6 @@ a.footer{
         background-color: #5A0F14;
         opacity: 1;
     }
-
 
     .menu-btn {
         display: block; /* Exibe o botão em telas pequenas */
@@ -495,15 +545,8 @@ a.footer{
         flex-direction: column;
       }
 
-      /*Removendo icone do Instagram*/
-      .icone-instagram{
-        display: none;
-      }
-
-    
-
+  
     /*IMAGEM*/
-
 
     .container-conteudo{
         display: flex;
@@ -529,14 +572,12 @@ a.footer{
         border-radius: 50px;
         margin: 1em;
         padding: 1em;
-        border:2px solid #1c819d;
+        border: 2px solid #1c819d;
         text-align: justify;
-        width: 30em;
-        height: 30em;
+        width: 25em;
+        height: 35em;
     }
     
-  
-
     .sobre-mim{
         margin: 20px;
         padding: 2px;
@@ -548,9 +589,26 @@ a.footer{
         padding: 1px;
     }
 
+    .img-helo{
+        margin-top: -95px;
+        margin-left: 165px;
+        padding: 45px;
+    }
 
-   
-  }
+    footer{
+        padding: 30px;
+        background-color: #5A0F14;
+        font-size: 15px;
+    }
+
+    
+
+}
+
+
+
+ 
+
 
 
   @media screen and (min-width: 1920px) {
