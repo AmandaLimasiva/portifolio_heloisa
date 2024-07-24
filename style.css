@@ -96,13 +96,19 @@ h1{
 .titulo{
     text-align: center;
     padding: 1em;
-    color: #5A0F14;
+    color: #f8f1f1;
 }
 
 .tituloServicos{
     padding: 1em;
     text-align: center;
     color: #f8f1f1;
+}
+
+.tituloSobreMim{
+    padding: 1em;
+    text-align: center;
+    color: #5A0F14;
 }
 
 /*Modal*/
@@ -301,12 +307,14 @@ h1{
     flex-wrap: nowrap;
 }
 
+/*
 .cod{
     margin-top: 25px;
     margin-bottom: 10px;
     font-weight: bold;
-    
 }
+*/
+
 
 #area-de-atuacao{
     background: linear-gradient(#0F145A, #1a4e73);
@@ -343,6 +351,10 @@ h1{
 }
 
 /*contato*/
+
+.paragrafo-sobre-mim{
+    margin-bottom: 1em;
+}
 
 .fazerContato{
     padding: 50px;
