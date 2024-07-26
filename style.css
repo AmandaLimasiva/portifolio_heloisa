@@ -99,6 +99,12 @@ h1{
     color: #f8f1f1;
 }
 
+.tituloContato{
+    text-align: center;
+    padding: 1em;
+    color: #5A0F14;
+}
+
 .tituloServicos{
     padding: 1em;
     text-align: center;
@@ -109,6 +115,15 @@ h1{
     padding: 1em;
     text-align: center;
     color: #5A0F14;
+}
+
+.socia{
+    text-align: center;
+    color: #5A0F14;
+    text-transform: uppercase;
+    border-left: 25em solid #5A0F14;
+    border-right: 25em solid #5A0F14;
+    height: 1px;
 }
 
 /*Modal*/
@@ -126,7 +141,7 @@ h1{
   }
   
   .modal-content {
-    background-color: #fefefe; /* Cor de fundo do modal */
+    background-color: #F2F2F2; /* Cor de fundo do modal */
     margin: 15% auto; /* Centraliza o modal verticalmente */
     padding: 20px;
     border: 1px solid #e6e4e4;
@@ -163,15 +178,15 @@ h1{
 
 .titulo-principal{
     display: flex;
+    /* text-align: left; */
     flex-direction: column;
-    justify-content: space-evenly;
+    align-content: center;
     align-items: baseline;
-    text-align: left;
 }
 
 .paragrafo-main{
     margin: 1em;
-    color: #fefefe;
+    color: #F2F2F2;
     margin: 40px;
     font-weight: bold;
     text-align: left;
@@ -193,7 +208,7 @@ h1{
 }
 
 .paragrafo{
-    color: #FFFAFA	;
+    color: #F2F2F2	;
     margin: 15px;
     padding: 10px;
 }
@@ -228,7 +243,7 @@ h1{
     padding: 6em;
     cursor: pointer;
     */
-    background-color: #fff;
+    background-color: #F2F2F2;
     border: 3px solid #5A0F14;
     flex-direction: row;
     padding: 10px;
@@ -298,8 +313,8 @@ h1{
 }
 
 .sobre-mim{
-    margin: 80px;
-    padding: 30px;
+    margin: 5em;
+    padding: 1em;
     text-align: justify;
 }
 
@@ -325,8 +340,10 @@ h1{
     background-repeat: no-repeat;
 }
 
-#sobre{
-    background-color: #f8f1f1;
+/*Sobre Mim*/
+
+.borda{
+    border: 1px solid #ccc;
 }
 
 .minha-foto{
@@ -353,7 +370,7 @@ h1{
 /*contato*/
 
 .paragrafo-sobre-mim{
-    margin-bottom: 1em;
+    margin-bottom: 1Fem;
 }
 
 .fazerContato{
@@ -526,7 +543,24 @@ a.footer{
       }
 
   
-    /*IMAGEM*/
+    /*Modal*/
+
+    .modal-content{
+        background-color: #fefefe;
+        margin: 10%;
+        padding: 20px;
+        border: 1px solid #e6e4e4;
+        width: 70%;
+    }
+
+
+    /*Serviços*/
+    .tituloServicos {
+        padding: 2em;
+        text-align: center;
+        color: #f8f1f1;
+    }
+
 
     .container-conteudo{
         display: flex;
@@ -556,11 +590,13 @@ a.footer{
         text-align: center;
         width: 20em;
     }
+
+    /*Sobre Mim*/
     
     .sobre-mim{
-        margin: 20px;
-        padding: 2px;
-        text-align: justify;
+            margin: 2em;
+            padding: 1em;
+            text-align: justify;
     }
 
     .paragrafo{
@@ -580,7 +616,16 @@ a.footer{
         font-size: 15px;
     }
 
-    
+    /*Borda*/
+
+    .socia{
+        text-align: center;
+        color: #5A0F14;
+        text-transform: uppercase;
+        border-left: 7em solid #5A0F14;
+        border-right: 7em solid #5A0F14;
+        height: 1px;
+    }
 
 }
 
